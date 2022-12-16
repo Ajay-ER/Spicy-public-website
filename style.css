@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0 ;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#topbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: .5rem 5rem;
+    box-shadow:5px 5px 20px rgb(74, 74, 74);
+    background: black;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    body,html {
+       min-width: 500px
+    }
+    }
+
+
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom:2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    color: white;
+    border-bottom:2px solid greenyellow;
+}
+
+#navbarSupportedContent button{
+    background-color: greenyellow;
+    border-radius: 15px;
+    width: 5rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+
+/* Home */
+
+#home{
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.4)),url(img/bg.jfif);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 10vw;
+    color: white;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(210, 210, 210),
+    0px 2px 0px rgb(210, 210, 210),
+    0px 3px 0px rgb(210, 210, 210),
+    0px 4px 0px rgb(210, 210, 210),
+    0px 5px 0px rgb(210, 210, 210),
+    0px 6px 0px rgb(210, 210, 210),
+    0px 7px 0px rgb(210, 210, 210);
+}
+#home p{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background-color: rgb(137, 228, 0) !important;
+    color: rgb(5, 5, 5) !important;
+    box-shadow: 2px 4px 5px rgb(rgb(0, 0, .4));
+}
+
+/* About  */
+
+.aboutText{
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+#about{
+    
+background-image: linear-gradient(62deg, #fff8fe 0%, #e6d0fa 100%);
+
+}
+
+#about h1{
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+/* products */
+
+#product{
+    background: #e5e5e5;
+    padding-bottom: 50px;
+}
+
+#product h1{
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    max-width: 190px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 15px rgb(0,0,0,0.3),inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+    transition: .2s;
+}
+.card:hover{
+    box-shadow:inset 5px 5px 10px rgb(0,0,0,0.3),inset -4px -4px 10px white;
+    transition: .2s;
+
+}
+
+/* contact */
+
+.contact img{
+    height: 100%;
+}
+
+.box h1{
+    color: rgb(255, 255, 255);
+}
+
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+
+
+
+
