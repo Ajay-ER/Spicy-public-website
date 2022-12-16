@@ -39,7 +39,7 @@
 }
 
 #navbarSupportedContent a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     border-bottom:2px solid greenyellow;
 }
 
