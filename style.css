@@ -19,11 +19,11 @@
     
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     body,html {
        min-width: 500px
     }
-    }
+    } */
 
 
 .navbar .navbar-brand{
