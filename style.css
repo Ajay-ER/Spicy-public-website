@@ -180,6 +180,12 @@ form{
     margin: 10px 0px;
 }
 
+@media screen and (max-width: 760px) {
+    #home > .input-group.m-4{
+        width: 80%;
+    }
+}
+
 
 
 
